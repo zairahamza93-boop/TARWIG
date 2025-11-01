@@ -1,1 +1,107 @@
-# TARWIG
+# <main class="container mx-auto px-4 py-8 sm:py-16">
+    <div class="max-w-4xl mx-auto text-center">
+
+        <div class="mb-8">
+            <span class="inline-block bg-emerald-500 text-white text-sm font-semibold px-4 py-1 rounded-full">
+                حصرياً للسيدات
+            </span>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight tracking-tight">
+            حققي استقلالكِ المادي من راحة منزلك
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
+            فرصة حقيقية للانضمام إلى فريق عمل نسائي ناجح. ابدئي رحلتك نحو تحقيق أهدافك المالية والشخصية بمرونة تامة.
+        </p>
+
+        <div class="mb-12">
+            <a
+                href="https://chat.whatsapp.com/IKueOe4p2TlCnRExoSxxsr"
+                onclick="handleJoinClick()"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-2xl py-4 px-12 rounded-full transition-transform duration-300 transform hover:scale-105 shadow-lg animate-pulse"
+                aria-label="الانضمام إلى مجموعة الواتساب"
+            >
+                انضمي الآن إلى المجموعة
+            </a>
+            <p class="mt-4 text-gray-400">
+                اضغطي على الزر للانضمام الفوري عبر واتساب
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Feature Card 1: العمل من المنزل -->
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center flex flex-col items-center shadow-lg transition-transform duration-300 hover:scale-105">
+                <div class="mb-4 text-emerald-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">عمل من المنزل</h3>
+                <p class="text-gray-200">أديري عملكِ بالكامل من أي مكان يناسبكِ.</p>
+            </div>
+
+            <!-- Feature Card 2: أوقات عمل مرنة -->
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center flex flex-col items-center shadow-lg transition-transform duration-300 hover:scale-105">
+                <div class="mb-4 text-emerald-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">أوقات عمل مرنة</h3>
+                <p class="text-gray-200">نظام عمل يتناسب مع مسؤولياتكِ والتزاماتكِ الأخرى.</p>
+            </div>
+
+            <!-- Feature Card 3: أرباح متنامية -->
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center flex flex-col items-center shadow-lg transition-transform duration-300 hover:scale-105">
+                <div class="mb-4 text-emerald-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">أرباح متنامية</h3>
+                <p class="text-gray-200">فرص حقيقية لزيادة دخلكِ وتحقيق أرباح مجزية.</p>
+            </div>
+
+            <!-- Feature Card 4: دعم وتدريب -->
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-center flex flex-col items-center shadow-lg transition-transform duration-300 hover:scale-105">
+                <div class="mb-4 text-emerald-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">دعم وتدريب</h3>
+                <p class="text-gray-200">نقدم لكِ تدريبًا شاملاً ودعمًا مستمرًا لضمان نجاحك.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center py-6">
+    <p class="text-gray-400 text-sm">&copy; <span id="currentYear"></span>. كل الحقوق محفوظة.</p>
+</footer>
+
+<script>
+    // JavaScript for TikTok Pixel tracking (if ttq is defined)
+    function handleJoinClick() {
+        if (window.ttq) {
+            window.ttq.track('SubmitForm');
+        }
+    }
+
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Optional: TikTok Pixel base code (replace with your actual pixel ID)
+    // You would typically add this in the <head> section or at the end of <body>
+    // Example:
+    /*
+    !function (w, d, t) {
+        w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","attr","on","off","once","ready","alias","group","enableCookie","disableCookie","trackPageview","trackEvent"];ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq.methods,n=0;n<e.length;n++)ttq.setAndDefer(t,e[n]);return t};ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{};ttq._i[e]=[];ttq._i[e].push({qs:n,options:t});var o=d.createElement(t);o.type="text/javascript";o.async=!0;o.src=i+"?sdkid="+e+"&lib="+t;var a=d.getElementsByTagName(t)[0];a.parentNode.insertBefore(o,a)};
+        ttq.load('YOUR_TIKTOK_PIXEL_ID'); // REPLACE 'YOUR_TIKTOK_PIXEL_ID' with your actual ID
+        ttq.page();
+    }(window, document, 'ttq');
+    */
+</script>
